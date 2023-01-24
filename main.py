@@ -34,7 +34,7 @@ def next_card():
     canvas.itemconfig(card_title, text="Niemiecki", fill="black")
     canvas.itemconfig(card_word, font=("Ariel", 60, "bold"))
     canvas.itemconfig(card_word, text=current_card["German"], fill="black")
-    flip_timer = window.after(1000, flip_card)
+    flip_timer = window.after(3000, flip_card)
 
 
 def flip_card():
